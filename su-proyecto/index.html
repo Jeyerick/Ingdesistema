@@ -7,8 +7,48 @@
     <title>Desarrollo de soft 2</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
+    
    <h1>Bienvenidos a nuestra web</h1>
-   <img src="Logotipo.jpg" alt="logo centrado">
+
+   <div class="galeria-imagen">
+    <div style="background-image: url('jey.jpg');"></div>
+    <div style="background-image: url('JM.jpg');"></div>
+    <div style="background-image: url('compa.jpg');"></div>
+    <div style="background-image: url('jey.jpg');"></div>
+    <div style="background-image: url('JM.jpg');"></div>
+    <div style="background-image: url('compa.jpg');"></div>
+   
+
+   </div>
+
+   <style>
+    .galeria-imagen {
+
+        display: flex;
+        height: 30rem;
+        gap: 1rem;
+        }
+
+     .galeria-imagen > div {
+        flex: 1;
+        border-radius: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        transition: all  .8s cubic-bezier(.25, .4, .45, 1.4);
+        
+     }  
+     
+     .galeria-imagen > div:hover {
+        flex: 5;
+
+     }
+
+
+   </style>
+
+    
 </body>
 </html>
