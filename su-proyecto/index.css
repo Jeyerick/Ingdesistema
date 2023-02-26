@@ -1,17 +1,54 @@
-html {
-  background: #4f1be9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0035f5, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*Juan Fernando*/
+header{background-color: #e18a8a;padding: 20px 0;}
+
+.caja{width: 940px;position: relative; margin: 0 auto;}
+
+button{padding: 10px;display: inline;margin: 0 0 0 15px;text-transform: uppercase;font-size: 25px; color: #612631;font-weight: bold;text-decoration: none;border-color: #612631;background-color: #e18a8a; cursor: pointer;}
+
+.oscuro{background-color: #120f1f; color: #f1eded; }
+
+nav{position: absolute;top: 110px;right: 0px;}
+
+nav li{display: inline;margin: 0 0 0 15px;}
+
+nav a{text-transform: uppercase;font-size: 25px; color: #612631;font-weight: bold;text-decoration: none;}
+
+.Informacion{padding: 20px;}
+
+.TituloInf {text-align: left;font-size: 30px; font-weight: bold;padding: 10px;}
+
+p{text-align:left;padding: 10px;font-size: 20px;}
+
+em strong{color:#612631;}
+
+img{padding: 10px;margin: #612631;}
+
+footer{background: url(PIE.png);text-align: center;padding: 10px; background-size: 100%;}
+
+.copy{color: aliceblue;text-align: center;}
+
+/*Jey*/
+
+
+.galeria-imagen {
+  padding-bottom: 15px;
+  display: flex;
+  height: 30rem;
+  gap: 1rem;
+  }
+
+.galeria-imagen > div {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all  .8s cubic-bezier(.25, .4, .45, 1.4);
   
-}
-h1 {
-text-align: center;
-background: #ccc;
-background: radial-gradient(#eff1ff,#000);
-font-family: system-ui;
-font-size: 3rem;
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
+}  
+
+.galeria-imagen > div:hover {
+  flex: 5;
 
 }
 

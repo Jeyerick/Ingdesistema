@@ -9,50 +9,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollo de soft 2</title>
+    <script src="https://kit.fontawesome.com/179a247509.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="script" href="index.js">
 </head>
 
 <body>
-    
-   <h1>Bienvenidos a nuestra web</h1>
+   <header>
+      <div  class="caja">
+         <h1>
+             <img src="LOGITO.png" alt="logo">
+         </h1>
+     <nav>
+         <ul>
+             <li>
+                 <a href="index.html">Home</a>
+             </li>
+             <li>
+                 <a href="index.html">PRODUCTOS</a>
+             </li>
+             <li>
+                 <a href="index.html">CONTACTOS</a>
+             </li>
+             <li>
+                 <button type="button" class="btn btn-dark" onclick="cambiarModo()">
+                     <span><i class="fa-solid fa-sun"></i></span> / <span><i class="fa-solid fa-moon"></i></span></button>
+             </li>
+         </ul>
+     </nav>
+     </div>
+</header>
+<main>
+   <section class="Informacion">
+      <h1 class="TituloInf">Que es una estructura HTML?</h1>
+      <img  src="imagen1.jpg">
+      <p>La estructura HTML de una página web se compone de las etiquetas "HTML", que indica el comienzo de la página; "HEAD", que contiene información más descriptiva sobre el sitio; y "BODY", que conforma todos los elementos visibles de la página</p>
+      <em>
+          <p><strong>NOTA:</strong> SIEMPRE SE HUSA ESTOPS TERMINOS CON LOS SIGNOS DE MAYOR Y MENOR ("<>")</p>
+      </em>
+      <h1 class="TituloInf">Fundadores</h1>
+  </section>
 
+  <section class="imagenesJey">
    <div class="galeria-imagen">
-    <div style="background-image: url('jey.jpg');"></div>
-    <div style="background-image: url('JM.jpg');"></div>
-    <div style="background-image: url('compa.jpg');"></div>
-    <div style="background-image: url('jey.jpg');"></div>
-    <div style="background-image: url('JM.jpg');"></div>
-    <div style="background-image: url('compa.jpg');"></div>
-   
-
-   </div>
-
-   <style>
-    .galeria-imagen {
-
-        display: flex;
-        height: 30rem;
-        gap: 1rem;
-        }
-
-     .galeria-imagen > div {
-        flex: 1;
-        border-radius: 1rem;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: auto 100%;
-        transition: all  .8s cubic-bezier(.25, .4, .45, 1.4);
-        
-     }  
-     
-     .galeria-imagen > div:hover {
-        flex: 5;
-
-     }
-
-
-   </style>
-
-    
+      <div style="background-image: url('jey.jpg');"></div>
+      <div style="background-image: url('JM.jpg');"></div>
+      <div style="background-image: url('compa.jpg');"></div>
+      <div style="background-image: url('jey.jpg');"></div>
+      <div style="background-image: url('JM.jpg');"></div>
+      <div style="background-image: url('compa.jpg');"></div>
+     </div>
+  </section>
+</main>
+<footer>
+   <img  class="pie" src="ALTER.png" alt="logo">
+   <li>
+       <p class="copy"> ©CopyRigth PRUEBA 2023 </p>
+   </li>
+</footer>
+<script type="text/javascript"> 
+   function cambiarModo() { 
+     var cuerpoweb = document.body; 
+     cuerpoweb.classList.toggle("oscuro"); 
+   } 
+ </script>
 </body>
 </html>
