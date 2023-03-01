@@ -1,4 +1,3 @@
-function cambiarModo() { 
-    var cuerpoweb = document.body; 
-    cuerpoweb.classList.toggle("oscuro"); 
-}
+document.querySelector('#elemento')
+.addEventListener("click", event =>
+{event.target.innerText = "!";})
