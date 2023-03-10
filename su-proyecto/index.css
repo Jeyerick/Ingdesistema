@@ -1,77 +1,3 @@
-/*JUAN FERNANDO*/
-header{background-color: #e18a8a;padding: 20px 0;}
-
-.caja{width: 940px;position: relative; margin: 0 auto;}
-
-button{padding: 10px;display: inline;margin: 0 0 0 15px;text-transform: uppercase;font-size: 25px; color: #612631;font-weight: bold;text-decoration: none;border-color: #612631;background-color: #e18a8a;transition: 1s all; cursor: pointer;}
-
-button:hover{transform: scale(1.2);color: #d55c72}
-
-.oscuro{background-color: #120f1f; color: #f1eded; }
-
-nav{position: absolute;top: 50px;right: 80px;}
-
-nav li{display: inline;margin: 0 0 0 15px;}
-
-nav a{text-transform: uppercase;font-size: 25px; color: #612631;font-weight: bold;text-decoration: none;}
-
-nav a:hover{color: #d55c72;text-decoration: underline;}
-
-.Informacion{padding: 20px;}
-
-.TituloInf {text-align: left;font-size: 30px; font-weight: bold;padding: 10px;}
-
-/*Juan Jose*/
-
-.imagen{display: flex;width: 50%;height: 50vh; justify-content:center;align-items: center;}
-
-.imagen figure{position: relative; height: 400px;width: 600px;overflow: hidden; border-radius: 6px;box-shadow: 10px 15px 35px rgba(219, 39, 111, 0.5);cursor: pointer;}
-
-.imagen figure img{width: 100%;height: 100%;transition: all 500ms ease-out;}
-
-.imagen figure .capa{ position: absolute;top: 0;width: 100%; height: 100%;background: rgba(219, 39, 111, 0.9);transition: all 500ms ease-out;opacity: 0;visibility: hidden; text-align: center;}
-
-.imagen figure:hover >.capa{opacity: 1;visibility: visible; }
-
-.imagen figure:hover >.capa h3{ margin-top: 70px;margin-bottom: 15px;}
-
-.imagen figure .capa h3{color: #612631;font-size: 40px;font-weight: 400; transition: all 500ms ease-out; margin-top: 30px;margin-bottom: 120px;font-weight: bold;}
-
-.imagen figure .capa p{color: #f0c1ca;font-size: 25px;font-weight: 400; transition: all 500ms ease-out; margin-top: 30px;margin-bottom: 120px;}
-
-p{text-align:left;padding: 30px;font-size: 20px;}
-
-em strong{color:#612631;}
-
-img{padding: 10px;margin: #612631;}
-
-footer{background: url(PIE.png);text-align: center;padding: 10px; background-size: 100%;}
-
-.copy{color: aliceblue;text-align: center;}
-
-/*Jey*/
-
-
-.galeria-imagen {display: flex;width: 100%;height: 100vh; justify-content:center;align-items: center;}
-  
-.galeria-imagen > figure { flex: 1;border-radius: 1rem; background-repeat: no-repeat; background-size: auto 100%; transition: all  .8s cubic-bezier(.25, .4, .45, 1.4); position: relative; height: 700px; width: 1000px; overflow: hidden;  border-radius: 6px;box-shadow: 10px 15px 35px rgba(219, 39, 111, 0.5); cursor: pointer; padding: 20px; }  
-  
-.galeria-imagen > figure:hover { flex: 5;}
-
-.galeria-imagen  figure img{width: 100%;height: 100%;transition: all 500ms ease-out;}
-
-.galeria-imagen  figure .copa{ position: absolute;top: 0;width: 100%; height: 100%;background: rgba(219, 39, 111, 0.9);transition: all 500ms ease-out;opacity: 0;visibility: hidden; text-align: center;}
-
-.galeria-imagen figure:hover >.copa{opacity: 1;visibility: visible; }
-
-.galeria-imagen figure:hover >.copa h3{ margin-top: 70px;margin-bottom: 15px;}
-
-.galeria-imagen .copa h3{color: #612631;font-size: 40px;font-weight: 400; transition: all 500ms ease-out; margin-top: 30px;margin-bottom: 120px;font-weight: bold;}
-
-.galeria-imagen .copa p{color: #f0c1ca;font-size: 25px;font-weight: 400; transition: all 500ms ease-out; margin-top: 30px;margin-bottom: 120px;}
-
-
-
 body{
     font-family: system-ui;
 }
@@ -252,3 +178,81 @@ p.author a {
     font-weight: 700;
     color: #000;
 }
+
+
+
+
+
+
+/*JUAN FERNANDO*/
+header{background-color: #e18a8a;padding: 20px 0;}
+
+.caja{width: 940px;position: relative; margin: 0 auto;}
+
+button{padding: 10px;display: inline;margin: 0 0 0 15px;text-transform: uppercase;font-size: 25px; color: #612631;font-weight: bold;text-decoration: none;border-color: #612631;background-color: #e18a8a;transition: 1s all; cursor: pointer;}
+
+button:hover{transform: scale(1.2);color: #d55c72}
+
+.oscuro{background-color: #120f1f; color: #f1eded; }
+
+nav{position: absolute;top: 50px;right: 80px;}
+
+nav li{display: inline;margin: 0 0 0 15px;}
+
+nav a{text-transform: uppercase;font-size: 25px; color: #612631;font-weight: bold;text-decoration: none;}
+
+nav a:hover{color: #d55c72;text-decoration: underline;}
+
+.Informacion{padding: 20px;}
+
+.TituloInf {text-align: left;font-size: 30px; font-weight: bold;padding: 10px;}
+
+/*Juan Jose*/
+
+.imagen{display: flex;width: 50%;height: 50vh; justify-content:center;align-items: center;}
+
+.imagen figure{position: relative; height: 400px;width: 600px;overflow: hidden; border-radius: 6px;box-shadow: 10px 15px 35px rgba(219, 39, 111, 0.5);cursor: pointer;}
+
+.imagen figure img{width: 100%;height: 100%;transition: all 500ms ease-out;}
+
+.imagen figure .capa{ position: absolute;top: 0;width: 100%; height: 100%;background: rgba(219, 39, 111, 0.9);transition: all 500ms ease-out;opacity: 0;visibility: hidden; text-align: center;}
+
+.imagen figure:hover >.capa{opacity: 1;visibility: visible; }
+
+.imagen figure:hover >.capa h3{ margin-top: 70px;margin-bottom: 15px;}
+
+.imagen figure .capa h3{color: #612631;font-size: 40px;font-weight: 400; transition: all 500ms ease-out; margin-top: 30px;margin-bottom: 120px;font-weight: bold;}
+
+.imagen figure .capa p{color: #f0c1ca;font-size: 25px;font-weight: 400; transition: all 500ms ease-out; margin-top: 30px;margin-bottom: 120px;}
+
+p{text-align:left;padding: 30px;font-size: 20px;}
+
+em strong{color:#612631;}
+
+img{padding: 10px;margin: #612631;}
+
+footer{background: url(PIE.png);text-align: center;padding: 10px; background-size: 100%;}
+
+.copy{color: aliceblue;text-align: center;}
+
+/*Jey*/
+
+
+.galeria-imagen {display: flex;width: 100%;height: 100vh; justify-content:center;align-items: center;}
+  
+.galeria-imagen > figure { flex: 1;border-radius: 1rem; background-repeat: no-repeat; background-size: auto 100%; transition: all  .8s cubic-bezier(.25, .4, .45, 1.4); position: relative; height: 700px; width: 1000px; overflow: hidden;  border-radius: 6px;box-shadow: 10px 15px 35px rgba(219, 39, 111, 0.5); cursor: pointer; padding: 20px; }  
+  
+.galeria-imagen > figure:hover { flex: 5;}
+
+.galeria-imagen  figure img{width: 100%;height: 100%;transition: all 500ms ease-out;}
+
+.galeria-imagen  figure .copa{ position: absolute;top: 0;width: 100%; height: 100%;background: rgba(219, 39, 111, 0.9);transition: all 500ms ease-out;opacity: 0;visibility: hidden; text-align: center;}
+
+.galeria-imagen figure:hover >.copa{opacity: 1;visibility: visible; }
+
+.galeria-imagen figure:hover >.copa h3{ margin-top: 70px;margin-bottom: 15px;}
+
+.galeria-imagen .copa h3{color: #612631;font-size: 40px;font-weight: 400; transition: all 500ms ease-out; margin-top: 30px;margin-bottom: 120px;font-weight: bold;}
+
+.galeria-imagen .copa p{color: #f0c1ca;font-size: 25px;font-weight: 400; transition: all 500ms ease-out; margin-top: 30px;margin-bottom: 120px;}
+
