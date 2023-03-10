@@ -36,6 +36,12 @@
                     <button type="button" class="btn btn-dark" onclick="cambiarModo()">
                         <span><i class="fa-solid fa-sun"></i></span> / <span><i class="fa-solid fa-moon"></i></span></button>
                 </li>
+                <li>
+                    <div>
+                        <img onclick="showCart(this)" class="cart" src="cart.png"  alt="">
+                        <p class="count-product">0</p>
+                    </div>
+                </li>
             </ul>
         </nav>
         </div>
@@ -44,10 +50,6 @@
  
  <div class="header-section container">
     <img class="logo" src="LOGOWEB.png" alt="">
-    <div>
-        <img onclick="showCart(this)" class="cart" src="cart.png" alt="">
-        <p class="count-product">0</p>
-    </div>
     <div class="cart-products" id="products-id">
         <p class="close-btn" onclick="closeBtn()">X</p>
         <h3>Mi carrito</h3>
