@@ -270,3 +270,8 @@ p.author a {
     font-weight: 700;
     color: #000;
 }
+#map {
+    height: 500;
+    width: 100%;
+
+}
