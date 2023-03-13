@@ -1,9 +1,7 @@
-document.querySelector('#elemento')
-.addEventListener("click", event =>
-{event.target.innerText = "!";})
-
-
-
+function cambiarModo() { 
+    var cuerpoweb = document.body; 
+    cuerpoweb.classList.toggle("oscuro"); 
+}
 let allContainerCart = document.querySelector('.products');
 let containerBuyCart = document.querySelector('.card-items');
 let priceTotal = document.querySelector('.price-total')
