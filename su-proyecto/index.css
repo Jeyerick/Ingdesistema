@@ -6,7 +6,7 @@ button:hover{transform: scale(1.2);color: #d55c72}
 
 .oscuro{background-color: #120f1f; color: #f1eded; }
 
-nav{position: absolute;top: 50px;right: 80px;}
+nav{position: absolute;top: 30px;right: 80px;}
 
 nav li{display: inline;margin: 0 0 0 15px;}
 
@@ -25,7 +25,7 @@ body{
 
 header{
     background-color: #e18a8a;
-    padding-top: 45px;
+    padding-top: 25px;
     padding-bottom: 18px;
     box-shadow: 0 7px 8px -3px grey;
     position: fixed;
@@ -44,6 +44,7 @@ header{
     margin: auto;
     align-items: center;
     position: relative;
+
 }
 .header-section div{
     position: relative;
