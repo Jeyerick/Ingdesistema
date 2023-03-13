@@ -95,7 +95,7 @@ body{
 
 header{
     background-color: #e18a8a;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 18px;
     box-shadow: 0 7px 8px -3px grey;
     position: fixed;
@@ -179,6 +179,7 @@ header{
 }
 .carts img{
     width: 100%;
+
 }
 .carts p{
     font-family: system-ui;
