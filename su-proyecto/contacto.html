@@ -1,94 +1,100 @@
+<!--JUAN FERNANDO
+JHON ERICK ORTEGA
+JUAN MOLINA-->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="LOGOWEB.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasteleria</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/179a247509.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styleProduc.css">
-    <link rel="script" href="index.js">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.js">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/svg+xml" href="logoweb.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <div id="mapa"></div>
+
+
 </head>
 <body>
-    
- <header>
-         <div  class="caja">
-            <h1>
-                <a href="https://jeyerick.github.io/Ingdesistema/su-proyecto/index.html"> <img src="LOGOWEB.png" width="200" height="200" alt="logo"></a>
-            </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="productos.html">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="contacto.html">CONTACTO</a>
-                </li>
-                <li>
-                    <button type="button" class="btn btn-dark" onclick="cambiarModo()">
-                        <span><i class="fa-solid fa-sun"></i></span> / <span><i class="fa-solid fa-moon"></i></span></button>
-                </li>
-                <li>
-                
-            </li>
-                
-            </ul>
-            
-        </nav>
-        </div>
-
+    <div  class="caja">
+        
+    </div>
+    <header>
+       <h1>
+            <a href="https://jeyerick.github.io/Ingdesistema/su-proyecto/index.html"> <img src="LOGOWEB.png" width="100" height="100" alt="logo"></a>
+        </h1>
+            <div>
+              <nav>
+                  <ul>
+                      <li>
+                          <a href="index.html">INICIO</a>
+                      </li>
+                      <li>
+                          <a href="productos.html">PRODUCTOS</a>
+                      </li>
+                      <li>
+                          <a href="contacto.html">CONTACTO</a>
+                      </li>
+                      <li>
+                          <button type="button" class="btn btn-dark" onclick="cambiarModo()">
+                              <span><i class="fa-solid fa-sun"></i></span> / <span><i class="fa-solid fa-moon"></i></span>
+                          </button>
+                      </li>
+                                      
+                  </ul>
+                  
+              </nav>
+              
+              </div>
+        
  </header>
+<br>
+<br>
+<br>
+<br>
+ <main>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contáctanos</h2>
+            <p>Dejános tu mensaje con tus datos para poder atender tu solicitud.</p>
+            <a href="#"><i class="fa fa-phone"></i> 123-456-789</a>
+            <a href="#"><i class="fa fa-envelope"></i> email@tudominio.com</a>
+            <a href="#"><i class="fa fa-map-marked"></i> Ciudad, Pais</a>
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+            <input type="email" name="email" placeholder="Tu Email" class="campo">
+            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+     
+     <script type="text/javascript"> 
+        function cambiarModo() { 
+          var cuerpoweb = document.body; 
+          cuerpoweb.classList.toggle("oscuro"); 
+        } 
+        function showCart(x){
+                document.getElementById("products-id").style.display = "block";
+            }
+            function closeBtn(){
+                 document.getElementById("products-id").style.display = "none";
+            }
+    
+    
+    
+        </script>
+        <div id="map"></div>
+        <script src="index.js" ></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+      </script>
+ </main>
  <footer>
     <img  class="pie" src="LOGOWEB.png" width="150" height="150" alt="logo">
-    
-        <p class="copy"> ©CopyRigth 2023 </p>
-    
+     
  </footer>
- <div class="container-form">
-    <div class="info-form">
-        <h2>Contáctanos</h2>
-        <p>Dejános tu mensaje con tus datos para poder atender tu solicitud.</p>
-        <a href="#"><i class="fa fa-phone"></i> 123-456-789</a>
-        <a href="#"><i class="fa fa-envelope"></i> email@tudominio.com</a>
-        <a href="#"><i class="fa fa-map-marked"></i> Ciudad, Pais</a>
-    </div>
-    <form action="#" autocomplete="off">
-        <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
-        <input type="emal" name="email" placeholder="Tu Email" class="campo">
-        <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
-        <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-    </form>
-</div>
- 
- <script type="text/javascript"> 
-    function cambiarModo() { 
-      var cuerpoweb = document.body; 
-      cuerpoweb.classList.toggle("oscuro"); 
-    } 
-    function showCart(x){
-            document.getElementById("products-id").style.display = "block";
-        }
-        function closeBtn(){
-             document.getElementById("products-id").style.display = "none";
-        }
-
-
-
-    </script>
-    <div id="map"></div>
-    <script src="index.js" ></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
-  </script>
-   
   
 </body>
 </html>
